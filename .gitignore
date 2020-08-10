@@ -6,12 +6,13 @@ build
 .gradle
 
 # other
+eclipse
 run
 libs
 src/test/
 
 # Files from Forge MDK
-changelog.txt
+forge-*-changelog.txt
 CREDITS.txt
-LICENSE.txt
+LICENSE*
 README.txt
