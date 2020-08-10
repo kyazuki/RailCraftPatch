@@ -1,0 +1,17 @@
+[
+  {
+    "modid": "railcraft_tradestationpatch",
+    "name": "RailCraftPatch",
+    "description": "Enable TradeStations.",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "url": "https://github.com/kyazuki/RailCraftPatch",
+    "updateUrl": "https://raw.githubusercontent.com/kyazuki/RailCraftPatch/master/update.json",
+    "authorList": ["kyazuki"],
+    "credits": "MinecraftForge, CovertJaguar, Maxwell-lt",
+    "logoFile": "",
+    "screenshots": [],
+    "requiredMods": ["Forge", "railcraft"],
+    "dependencies": ["railcraft"]
+  }
+]
