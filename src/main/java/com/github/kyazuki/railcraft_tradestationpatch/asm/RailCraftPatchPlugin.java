@@ -1,7 +1,5 @@
 package com.github.kyazuki.railcraft_tradestationpatch.asm;
 
-import com.github.kyazuki.railcraft_tradestationpatch.asm.transformers.CartBaseLogicClassTransformer;
-import com.github.kyazuki.railcraft_tradestationpatch.asm.transformers.TileLogicClassTransformer;
 import net.minecraftforge.fml.relauncher.IFMLLoadingPlugin;
 
 import javax.annotation.Nullable;
@@ -12,7 +10,7 @@ import java.util.Map;
 public class RailCraftPatchPlugin implements IFMLLoadingPlugin {
   @Override
   public String[] getASMTransformerClass() {
-    return new String[]{TileLogicClassTransformer.class.getName(), CartBaseLogicClassTransformer.class.getName()};
+    return new String[]{TradeStationLogicClassTransformer.class.getName()};
   }
 
   @Override
